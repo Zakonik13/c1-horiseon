@@ -1,3 +1,4 @@
+/*Fill to edge*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     color: #ffffff;
 }
 
+/*Begins navigation bar*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,10 +44,7 @@ a {
     color: #ffffff;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*Displays large image below navigation bar*/
 .hero {
     height: 800px;
     width: 100%;
@@ -53,6 +52,17 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/*Begins main content*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content img {
+    max-height: 200px;
 }
 
 .float-left {
@@ -65,19 +75,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.content img {
-    max-height: 200px;
-}
-
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+p {
+    font-size: 16px;
 }
 
 #search-engine-optimization {
@@ -104,6 +108,7 @@ p {
     background-color: #0072bb;
 }
 
+/*List benefits in right column*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -160,7 +165,7 @@ p {
     max-width: 150px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -168,6 +173,6 @@ p {
     color: #000000;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
