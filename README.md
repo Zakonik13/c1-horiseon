@@ -2,7 +2,7 @@
 # Horiseon Challenge
 
 ### Purpose:
-    Modify html and css files to improve functionality and create a clear, concise layout of code while maintaining current website formatting.
+   * Modify html and css files to improve functionality and create a clear, concise layout of code while maintaining current website formatting.
 
 ### Summary:
    * Provided proper title for website in <head>
